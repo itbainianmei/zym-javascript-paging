@@ -4,7 +4,7 @@
 3.    #list：绝对定位
 4.    li:高度24px                    所以：每次分页就显示70/24=3条数据；
 
-
+长啥样呢：https://github.com/itbainianmei/zym-javascript-paging/blob/master/image/face.png
 
 
 2017/11/02
