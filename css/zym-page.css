@@ -1,0 +1,42 @@
+// created by zym 
+// 2017.10.22 18:01
+* {
+	padding: 0;
+	margin: 0;
+}
+.first-page,.pre-page,.next-page,.last-page{
+	display: inline-block;
+	width:70px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+	border:1px solid red;
+	color:#f00;
+	cursor: pointer;
+}
+.first-page:active,.pre-page:active,.next-page:active,.last-page:active{
+	background: red;
+	color:#fff;
+}
+.page-no{
+	cursor: pointer;
+	display: inline-block;
+	width:28px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+	border:1px solid red;
+}
+.page-no.current{
+	background: red;
+	color:#fff;
+}
+.get-page{
+	width:24px;
+	text-align: center;
+}
+.gopage{
+	cursor: pointer;
+}

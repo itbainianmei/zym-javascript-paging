@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/zym-page.css">
+		<style>
+			.listCon{
+				width:90%;
+				height:70px;
+				position: relative;
+				border:1px solid red;
+				overflow: hidden;
+			}
+			.list{
+				width:100%;
+				position: absolute;
+				top:0;
+				left:0;
+				background: rgba(234,255,250,0.5);
+			}
+			ul{
+				margin: 0;
+    			padding: 0
+			}
+			li{
+				height:24px;
+				;background: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="listCon">
+			<ul class="list" id="list">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>9</li>
+				<li>10</li>
+				<li>11</li>
+				<li>12</li>
+			</ul>
+		</div> 
+		<div id="page" class="page">
+		</div>
+	</body>
+	<script type="text/javascript" src="js/paging.js"></script>
+	<script>
+		//分页
+		$('#page','#list',{
+			pageNo:1,
+			totalPage:5,
+			totalSize:12
+		});
+	</script>
+</html>
